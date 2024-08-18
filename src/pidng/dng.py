@@ -92,6 +92,8 @@ class Tag:
     ColorMatrix2                = (50722,Type.Srational)
     CameraCalibration1          = (50723,Type.Srational)
     CameraCalibration2          = (50724,Type.Srational)
+    ReductionMatrix1            = (50725,Type.Srational)
+    ReductionMatrix2            = (50726,Type.Srational)
     AnalogBalance               = (50727,Type.Rational)
     AsShotNeutral               = (50728,Type.Rational)
     BaselineExposure            = (50730,Type.Srational)

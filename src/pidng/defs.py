@@ -42,6 +42,9 @@ class CFAPattern:
     GBRG = [1, 2, 0, 1]
     GRBG = [1, 0, 2, 1]
     RGGB = [0, 1, 1, 2]
+    RGYB = [0, 1, 4, 2]
+    RGBY = [0, 1, 2, 4]
+    YBRG = [4, 2, 0, 1]
 
 class CalibrationIlluminant:   
     Unknown = 0
