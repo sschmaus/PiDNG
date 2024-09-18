@@ -33,15 +33,10 @@ Requires:
 
 ### Install
 
-From PyPI:
-```
-python3 -mpip install PiDNG 
-```
-
 Latest version from GitHub:
 
 ```
-python3 -mpip install  git+https://github.com/schoolpost/PiDNG.git
+python3 -mpip install  python3 -mpip install  git+https://github.com/sschmaus/PiDNG@AdobeCompatibility
 ```
 
 ***
