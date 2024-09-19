@@ -36,7 +36,7 @@ Requires:
 Latest version from GitHub:
 
 ```
-python3 -mpip install  python3 -mpip install  git+https://github.com/sschmaus/PiDNG@AdobeCompatibility
+python3 -mpip install  git+https://github.com/sschmaus/PiDNG@AdobeCompatibility
 ```
 
 ***
