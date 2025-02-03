@@ -54,9 +54,7 @@ class DNGBASE:
         compression_scheme = Compression.LJ92 if compress else Compression.Uncompressed
 
         if compress:
-            from ljpegCompress import pack16tolj
-            tile = pack16tolj(rawFrame, int(width*2),
-                              int(length/2), bpp, 0, 0, 0, "", 6)
+            raise NotImplementedError('LJ92 compression has been removed from this version of PiDNG.')
         else:
             if bpp == 8:
                 tile = rawFrame.astype('uint8').tobytes()

@@ -10,7 +10,7 @@ Create Adobe DNG RAW files using Python.
 ------------
 
 - 8,10,12,14,16-bit precision
-- Lossless compression
+- ~~Lossless compression~~ (disabled in this version)
 - DNG Tags ( extensible )
 
 ### Works with any **Bayer RAW** Data including native support for **Raspberry Pi cameras**.
@@ -36,7 +36,7 @@ Requires:
 Latest version from GitHub:
 
 ```
-python3 -mpip install  git+https://github.com/sschmaus/PiDNG@AdobeCompatibility
+python3 -mpip install  git+https://github.com/sschmaus/PiDNG@pure-python
 ```
 
 ***

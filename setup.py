@@ -1,11 +1,8 @@
 # from distutils.core import setup, Extension
-from setuptools import setup, Extension, find_packages
+from setuptools import setup, find_packages
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
-
-ljpeg92 = Extension('ljpegCompress', sources=[
-                    "src/pidng/bitunpack.c", "src/pidng/liblj92/lj92.c"],  extra_compile_args=['-std=gnu99'], extra_link_args=[])
 
 setup(
     name="pidng",
@@ -26,7 +23,6 @@ setup(
         "Programming Language :: Python :: 3.6",
         "License :: OSI Approved :: MIT License",
     ],
-    ext_modules=[ljpeg92],
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     python_requires='>=3.6',
